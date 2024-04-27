@@ -55,7 +55,7 @@ const Locals = () => {
                         </InputGroup>
                     </form>
                 </Col>
-                <Col md={3}>
+                <Col md={3}> 
                         <Form.Select onChange={(e)=>setSize(e.target.value)}>
                             <option name ="row" value={5}>5행</option>
                             <option name ="row" value={10} selected>10행</option>
